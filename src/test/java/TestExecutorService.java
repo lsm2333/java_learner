@@ -17,6 +17,14 @@ import java.util.concurrent.Future;
  */
 public class TestExecutorService {
 
+    /**
+     * <B>Description:</B> 试试ExecutorService <br>
+     * <B>Create on:</B> 2020-04-27 20:41 <br>
+     *
+     * @param
+     * @return
+     * @author shengming.lin
+     */
     @Test
     public void testExecutor() {
         List<String> input = Lists.newArrayList("1", "2", "3", "4");
