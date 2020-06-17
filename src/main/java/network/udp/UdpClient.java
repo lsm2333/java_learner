@@ -25,7 +25,6 @@ public class UdpClient {
     public void init() {
         try {
             dataSocket = new DatagramSocket(PORT + 1);
-            sendDataByte = new byte[1024];
             sendStr = "hi server, i am client!";
             sendDataByte = sendStr.getBytes();
             dataPacket = new DatagramPacket(sendDataByte, sendDataByte.length,
